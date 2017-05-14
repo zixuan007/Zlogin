@@ -1,0 +1,30 @@
+2017-5-9 23:34:12 [INFO] Loading nukkit.yml...
+2017-5-9 23:34:12 [INFO] Loading server properties...
+2017-5-9 23:34:12 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2017-5-9 23:34:12 [INFO] 正在启动支持 Minecraft: PE v1.0.7 版本的服务器
+2017-5-9 23:34:12 [INFO] 正在启动服务器在 0.0.0.0:19132
+2017-5-9 23:34:12 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2017-5-9 23:34:12 [INFO] Nukkit 根据 LGPL 许可发行
+2017-5-9 23:34:12 [INFO] Successfully loaded 0 resource packs
+2017-5-9 23:34:12 [INFO] 读取中... Zlogin v1.0.0
+2017-5-9 23:34:12 [INFO] 准备地图中... "world"
+2017-5-9 23:34:12 [INFO] 开启中... Zlogin v1.0.0
+2017-5-9 23:34:12 [ALERT] java.lang.RuntimeException: java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integer
+	at cn.nukkit.plugin.PluginManager.enablePlugin(PluginManager.java:450)
+	at cn.nukkit.Server.enablePlugin(Server.java:634)
+	at cn.nukkit.Server.enablePlugins(Server.java:623)
+	at cn.nukkit.Server.<init>(Server.java:470)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integer
+	at cn.plugin.Main.onEnable(Main.java:49)
+	at cn.nukkit.plugin.PluginBase.setEnabled(PluginBase.java:89)
+	at cn.nukkit.plugin.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:119)
+	at cn.nukkit.plugin.PluginManager.enablePlugin(PluginManager.java:446)
+	... 4 more
+
+2017-5-9 23:34:12 [INFO] 关闭中... Zlogin v1.0.0
+2017-5-9 23:34:12 [INFO] 启动 GS4 状态监听器
+2017-5-9 23:34:12 [INFO] 将 Query 端口设定为 19132
+2017-5-9 23:34:12 [INFO] Query 运行在 0.0.0.0:19132
+2017-5-9 23:34:12 [INFO] 默认的游戏模式为：生存模式
+2017-5-9 23:34:12 [INFO] 启动完成 (1.418s)！如需帮助，请输入 "help" 或 "?"

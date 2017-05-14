@@ -1,0 +1,47 @@
+2017-5-10 23:55:35 [INFO] Loading nukkit.yml...
+2017-5-10 23:55:35 [INFO] Loading server properties...
+2017-5-10 23:55:35 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2017-5-10 23:55:35 [INFO] 正在启动支持 Minecraft: PE v1.0.7 版本的服务器
+2017-5-10 23:55:35 [INFO] 正在启动服务器在 0.0.0.0:19132
+2017-5-10 23:55:35 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2017-5-10 23:55:35 [INFO] Nukkit 根据 LGPL 许可发行
+2017-5-10 23:55:36 [INFO] Successfully loaded 0 resource packs
+2017-5-10 23:55:36 [INFO] 读取中... Zlogin v1.0.0
+2017-5-10 23:55:36 [INFO] 准备地图中... "world"
+2017-5-10 23:55:36 [INFO] 开启中... Zlogin v1.0.0
+2017-5-10 23:55:36 [INFO] 启动 GS4 状态监听器
+2017-5-10 23:55:36 [INFO] 将 Query 端口设定为 19132
+2017-5-10 23:55:36 [INFO] Query 运行在 0.0.0.0:19132
+2017-5-10 23:55:36 [INFO] 默认的游戏模式为：生存模式
+2017-5-10 23:55:36 [INFO] 启动完成 (1.637s)！如需帮助，请输入 "help" 或 "?"
+2017-5-10 23:55:48 [INFO] zixuan7[/192.168.4.107:56853] 登入游戏，实体 ID 为 1，坐标位于 (world, -624.0, 86.0, 550.0)
+2017-5-10 23:55:49 [INFO] AAAAAE
+2017-5-10 23:55:49 [CRITICAL] "无法处理事件 'cn.nukkit.event.player.PlayerJoinEvent' 至 'Zlogin v1.0.0'：null 在 cn.plugin.event.EventListener 上"
+2017-5-10 23:55:49 [ALERT] cn.nukkit.utils.EventException
+	at cn.nukkit.plugin.MethodEventExecutor.execute(MethodEventExecutor.java:34)
+	at cn.nukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:56)
+	at cn.nukkit.plugin.PluginManager.callEvent(PluginManager.java:553)
+	at cn.nukkit.Player.doFirstSpawn(Player.java:792)
+	at cn.nukkit.Player.sendNextChunk(Player.java:747)
+	at cn.nukkit.Player.checkNetwork(Player.java:1650)
+	at cn.nukkit.Server.tick(Server.java:1024)
+	at cn.nukkit.Server.tickProcessor(Server.java:808)
+	at cn.nukkit.Server.start(Server.java:787)
+	at cn.nukkit.Server.<init>(Server.java:472)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NullPointerException
+	at cn.plugin.Main.getPlayerInfo(Main.java:173)
+	at cn.plugin.Main.isChildAll(Main.java:95)
+	at cn.plugin.Main.isChildAll(Main.java:91)
+	at cn.plugin.Main.isCreateChild(Main.java:79)
+	at cn.plugin.event.EventListener.onJoin(EventListener.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cn.nukkit.plugin.MethodEventExecutor.execute(MethodEventExecutor.java:29)
+	... 10 more
+
+2017-5-10 23:55:49 [INFO] zixuan7 加入了游戏
+2017-5-10 23:56:36 [INFO] zixuan7 离开了游戏
+2017-5-10 23:56:36 [INFO] zixuan7[/192.168.4.107:56853] 登出游戏，原因： [Zlogin]:由于您长时间不登录账号或者是没注册账号,登录超时

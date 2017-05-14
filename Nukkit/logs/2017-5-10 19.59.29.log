@@ -1,0 +1,35 @@
+2017-5-10 19:53:49 [INFO] Loading nukkit.yml...
+2017-5-10 19:53:49 [INFO] Loading server properties...
+2017-5-10 19:53:50 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2017-5-10 19:53:50 [INFO] 正在启动支持 Minecraft: PE v1.0.7 版本的服务器
+2017-5-10 19:53:50 [INFO] 正在启动服务器在 0.0.0.0:19132
+2017-5-10 19:53:50 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2017-5-10 19:53:50 [INFO] Nukkit 根据 LGPL 许可发行
+2017-5-10 19:53:50 [INFO] Successfully loaded 0 resource packs
+2017-5-10 19:53:50 [INFO] 读取中... Zlogin v1.0.0
+2017-5-10 19:53:50 [INFO] 准备地图中... "world"
+2017-5-10 19:53:50 [INFO] 开启中... Zlogin v1.0.0
+2017-5-10 19:53:50 [INFO] 启动 GS4 状态监听器
+2017-5-10 19:53:50 [INFO] 将 Query 端口设定为 19132
+2017-5-10 19:53:50 [INFO] Query 运行在 0.0.0.0:19132
+2017-5-10 19:53:50 [INFO] 默认的游戏模式为：生存模式
+2017-5-10 19:53:50 [INFO] 启动完成 (1.581s)！如需帮助，请输入 "help" 或 "?"
+2017-5-10 19:53:59 [INFO] zixuan[/192.168.32.162:52930] 登入游戏，实体 ID 为 1，坐标位于 (world, 79.794, 68.0, 546.2856)
+2017-5-10 19:54:00 [INFO] zixuan 加入了游戏
+2017-5-10 19:58:25 [INFO] zixuan 离开了游戏
+2017-5-10 19:58:25 [INFO] zixuan[/192.168.32.162:52930] 登出游戏，原因： client disconnect
+2017-5-10 19:58:33 [INFO] zixuan[/192.168.32.162:52930] 登入游戏，实体 ID 为 49，坐标位于 (world, -270.3802, 107.5879, 172.4386)
+2017-5-10 19:58:34 [INFO] 5999a4c9-cdc8-3c3a-840e-17b4eaa5577e
+2017-5-10 19:58:34 [INFO] Pla
+2017-5-10 19:58:34 [INFO] zixuan 加入了游戏
+2017-5-10 19:59:29 [CRITICAL] 计算地图 "world" 时出现错误：java.lang.NullPointerException
+2017-5-10 19:59:29 [ALERT] java.lang.NullPointerException
+	at cn.nukkit.level.Level.tickChunks(Level.java:1036)
+	at cn.nukkit.level.Level.doTick(Level.java:781)
+	at cn.nukkit.Server.checkTickUpdates(Server.java:946)
+	at cn.nukkit.Server.tick(Server.java:1021)
+	at cn.nukkit.Server.tickProcessor(Server.java:808)
+	at cn.nukkit.Server.start(Server.java:787)
+	at cn.nukkit.Server.<init>(Server.java:472)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+

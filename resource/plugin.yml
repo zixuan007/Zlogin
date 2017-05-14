@@ -1,0 +1,5 @@
+name: Zlogin
+main: cn.plugin.Main
+version: "1.0.0"
+api: ["1.0.0"]
+author: zixuan

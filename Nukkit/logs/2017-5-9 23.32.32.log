@@ -1,0 +1,60 @@
+2017-5-9 23:32:31 [INFO] Loading nukkit.yml...
+2017-5-9 23:32:31 [INFO] Loading server properties...
+2017-5-9 23:32:31 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2017-5-9 23:32:31 [INFO] 正在启动支持 Minecraft: PE v1.0.7 版本的服务器
+2017-5-9 23:32:31 [INFO] 正在启动服务器在 0.0.0.0:19132
+2017-5-9 23:32:31 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2017-5-9 23:32:31 [INFO] Nukkit 根据 LGPL 许可发行
+2017-5-9 23:32:31 [INFO] Successfully loaded 0 resource packs
+2017-5-9 23:32:31 [INFO] 读取中... Zlogin v1.0.0
+2017-5-9 23:32:31 [INFO] 准备地图中... "world"
+2017-5-9 23:32:31 [INFO] 开启中... Zlogin v1.0.0
+2017-5-9 23:32:31 [ALERT] java.lang.RuntimeException: while parsing a block mapping
+ in 'string', line 3, column 1:
+    Child: "1";
+    ^
+expected <block end>, but found Scalar
+ in 'string', line 3, column 11:
+    Child: "1";
+              ^
+
+	at cn.nukkit.plugin.PluginManager.enablePlugin(PluginManager.java:450)
+	at cn.nukkit.Server.enablePlugin(Server.java:634)
+	at cn.nukkit.Server.enablePlugins(Server.java:623)
+	at cn.nukkit.Server.<init>(Server.java:470)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: while parsing a block mapping
+ in 'string', line 3, column 1:
+    Child: "1";
+    ^
+expected <block end>, but found Scalar
+ in 'string', line 3, column 11:
+    Child: "1";
+              ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:143)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:120)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:450)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:427)
+	at cn.nukkit.utils.Config.parseContent(Config.java:548)
+	at cn.nukkit.utils.Config.load(Config.java:157)
+	at cn.nukkit.utils.Config.<init>(Config.java:99)
+	at cn.nukkit.utils.Config.<init>(Config.java:86)
+	at cn.plugin.Main.onEnable(Main.java:39)
+	at cn.nukkit.plugin.PluginBase.setEnabled(PluginBase.java:89)
+	at cn.nukkit.plugin.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:119)
+	at cn.nukkit.plugin.PluginManager.enablePlugin(PluginManager.java:446)
+	... 4 more
+
+2017-5-9 23:32:31 [INFO] 关闭中... Zlogin v1.0.0
+2017-5-9 23:32:32 [INFO] 启动 GS4 状态监听器
+2017-5-9 23:32:32 [INFO] 将 Query 端口设定为 19132
+2017-5-9 23:32:32 [INFO] Query 运行在 0.0.0.0:19132
+2017-5-9 23:32:32 [INFO] 默认的游戏模式为：生存模式
+2017-5-9 23:32:32 [INFO] 启动完成 (1.506s)！如需帮助，请输入 "help" 或 "?"
