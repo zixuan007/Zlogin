@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Zlogin">
+    <output-path>$PROJECT_DIR$/out/artifacts/Zlogin</output-path>
+    <root id="archive" name="Zlogin.jar">
+      <element id="module-output" name="Zlogin" />
+      <element id="dir-copy" path="$PROJECT_DIR$/resource" />
+    </root>
+  </artifact>
+</component>
